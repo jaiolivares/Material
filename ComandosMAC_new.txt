@@ -1,0 +1,16 @@
+Instalar NVM y NODE
+
+>touch .zshrc
+>softwareupdate --install-rosetta
+>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+cerrar terminal
+
+>nvm -v (debe salir el número de versión)
+
+
+>nvm install node (instala última versión)
+>nvm install v11 (versión en específica)
+
+>nvm list (ver versiones instaladas)
+>nvm use v21.7.1(cambiar y usar versión instalada)
